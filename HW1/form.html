@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Add New Interest</title>
+		<meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+
+		<nav class="navbar navbar-expand-sm bg-light navbar-light">
+		  	<ul class="navbar-nav">
+			    <li class="nav-item active">
+			      <a class="nav-link" href="mypage_bootstrap.html">Home</a>
+			    </li>
+			</ul>
+		</nav>
+	<div class="container">
+		<h1>Add New Interest</h1>
+		<form>
+			<div class="form-group">
+		    <label for="interest">Interest Name</label>
+		    <input type="text" class="form-control" id="Name" placeholder="Name">
+
+		    <label for="textinterest">Text about Interest</label>
+		    <textarea class="form-control" id="Textarea" rows="3"></textarea>
+
+		    <table class="table">
+		    	<tr>
+		    		<td width="50%">
+					  	<p>Upload local Image:</p>
+			    		<input type="file" id="myFile" name="filename2">
+			    	</td>
+			    	<td width="50%">
+			    		<p>Select # Tweets to Display:</p>
+			    		<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						    1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#">1</a>
+						    <a class="dropdown-item" href="#">2</a>
+						    <a class="dropdown-item" href="#">3</a>
+						    <a class="dropdown-item" href="#">4</a>
+						    <a class="dropdown-item" href="#">5</a>
+						  </div>
+						</div>
+			    	</td>
+		    	</tr>
+		    	<tr>
+		    		<td colspan="2">
+						<div class="checkbox">
+							<p>On a scale of 1-5, How interested in this are you?</p>
+							<label class="checkbox-inline"><input type="checkbox" value="1">1</label>
+							<label class="checkbox-inline"><input type="checkbox" value="2">2</label>
+							<label class="checkbox-inline"><input type="checkbox" value="3">3</label>
+							<label class="checkbox-inline"><input type="checkbox" value="4">4</label>
+							<label class="checkbox-inline"><input type="checkbox" value="5">5</label>
+						</div>
+		    		</td>
+		    	</tr>
+		    	<tr>
+		    		<td>
+					    <label for="Login">Login to FInish Submitting</label>
+					    <input type="text" class="form-control" id="login" placeholder="Username">
+		    		</td>
+		    		<td>
+		    			<label for="password">&nbsp;</label>
+			    		<input type="password" class="form-control" id="Pass" placeholder="Password">
+		    		</td>
+				</tr>
+			</table>
+
+		  	<button type="submit" class="btn btn-primary">Submit</button>
+			</div>
+
+		</form>
+	</div>
+	</body>
+	
+</html>
