@@ -1,0 +1,8 @@
+Henry Wang
+I have attempted Bonus 1 from HW1 and Bonus 2 for HW2
+
+Homework 2:
+https://henrywangballer.github.io/HW2/mypage_bootstrap.html
+
+Bonus 2:
+https://henrywangballer.github.io/HW2/jasmine/SpecRunner.html
