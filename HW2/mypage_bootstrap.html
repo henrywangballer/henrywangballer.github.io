@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+      	
+        <title>About Me</title>
+          <meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		  <script src="mypage_bootstrap.js"></script>
+      </head>
+      <body>
+
+
+      	<nav class="navbar navbar-expand-sm bg-light navbar-light">
+		  	<ul class="navbar-nav">
+			    <li class="nav-item active">
+			      <a class="nav-link" href="mypage_bootstrap.html">Profile</a>
+			  	</li>
+			    <li class="nav-item"><a class="nav-link" href="signup-modal/login.html">Sign Up Modal</a></li>
+			    <li class="nav-item"><a class="nav-link" href="tic-tac-toe/tic-tac-toe.html">Tic Tac Toe</a></li>
+			</ul>
+		</nav>
+
+      	<div class="container">
+        <h1><b>Wang, Henry - <small class="text-muted">Software Development Methods and Tools</small></b></h1>
+        <div class="card bg-light text-dark">
+        	<div class="card-body">
+        	<p>Three interesting Facts: 1) I am from Vancouver, BC Canada 2) I play the violin and piano 3) I broke the basketball hoop that was outside the school. I am Studying computer science because i think computer science is a popular field to get a job in and my dad influenced me to study this as he is a software engineer</p>
+        	</div>
+    	</div>
+        <h2>My Professional Profile</h2>
+        <a href = "https://github.com/henrywangballer" class = "btn btn-outline-secondary">Github Account</a>
+        
+        <br>
+
+        <img src="KawhiSmile.jpg" class="rounded-circle" alt="Kawhi smile" width="400" height = "300" value = "kawhismile">
+
+        <h3>My Favorite Projects</h3>
+
+
+        <table class="table">
+		    <thead>
+		      <tr>
+		        <th>Name of the Project</th>
+		        <th>Technologies Used</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr>
+		        <td>Linux</td>
+		        <td>C</td>
+		      </tr>
+		      <tr>
+		        <td>Git</td>
+		        <td>C, Shell, Perl, Tcl, Python</td>
+		      </tr>
+		      <tr>
+		        <td>Chrome OS</td>
+		        <td>C, C++</td>
+		      </tr>
+		    </tbody>
+		 </table>
+		 <h3>My Interests
+		 <div align="center"><a href = "" class = "btn btn-info">Add Interest</a></div>
+		</h3>
+		 
+		 <div class="card-group">
+			 <div class="card" style="width: 18rem;">
+			  <img class="card-img-top" src="basketball.jpg" alt="Card image cap">
+			  <input type="button" class="btn btn-info" id="increase" value="+" onclick="addCard('card1')" />
+			  <div id="card1" class="card-body">
+			  	<!--
+				 <div class="card" style="width: 18rem;">
+				  <img class="card-img-top" src="basketball.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">Basketball</h5>
+				    <p class="card-text">Basketball is Fun!!!!!</p>
+				  </div>
+				</div>
+				-->
+
+			  </div>
+
+			</div>
+			<div class="card" style="width: 18rem;">
+			  <img class="card-img-top" src="football.jpg" alt="Card image cap">
+			  <input type="button" class="btn btn-info" id="increase" value="+" onclick="addCard('card2')" />
+			  <div id="card2" class="card-body">
+			    <h5 class="card-title">Football</h5>
+			    <p class="card-text">Football is Fun to watch!!!!!</p>
+			    
+			  </div>
+			</div>
+			<div class="card" style="width: 18rem;">
+			  <img class="card-img-top" src="kpop.jpg" alt="Card image cap">
+			  <input type="button" class="btn btn-info" id="increase" value="+" onclick="addCard('card3')" />
+			  <div id="card3" class="card-body">
+			  
+			    <h5 class="card-title">Kpop</h5>
+			    <p class="card-text">Kpop is fun to listen and watch!!!!!</p>
+			    
+			  </div>
+			</div>
+		</div>
+		</div>
+      </body>
+    </html>
